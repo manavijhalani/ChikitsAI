@@ -1,0 +1,15 @@
+.photos {
+    width: 100%;
+    height: 100%; /* Ensures consistency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures images fill the area evenly */
+    border-radius: 50%; /* Ensures circular appearance if inside a circle */
+}

@@ -1,0 +1,39 @@
+.orb-container {
+    position: relative; /* Changed from absolute */
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ai-helper-text {
+    position: absolute;
+    top: 40%; /* Adjusted so it stays in its original place */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(0, 0, 255, 0.6),
+      0 0 30px rgba(0, 0, 255, 0.8);
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .ai-description {
+    position: absolute;
+    top: 95%; /* Adjusted to push it below AI Helper */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(0, 0, 255, 0.8);
+    text-align: center;
+    width: 40%;
+    max-width: 1000px;
+    line-height: 1.5;
+    white-space: normal;
+  }
+  
+  

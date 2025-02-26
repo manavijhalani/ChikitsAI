@@ -1,0 +1,11 @@
+.myKeyboardTheme .hg-button {
+    background: rgb(228, 218, 218); /* Dark background */
+    color: black !important; /* Ensure letters are black */
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .myKeyboardTheme .hg-button:hover {
+    background: #444; /* Slightly lighter background on hover */
+  }
+  
