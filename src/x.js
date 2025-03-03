@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("");
+const genAI = new GoogleGenerativeAI("API KEY");
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
 const chat = model.startChat({
