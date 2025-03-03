@@ -51,7 +51,7 @@ const darkTheme = createTheme({
   shape: { borderRadius: 16 }
 });
 
-const genAI = new GoogleGenerativeAI("");
+const genAI = new GoogleGenerativeAI("API KEY");
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
 const Camera = () => {
