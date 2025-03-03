@@ -51,11 +51,11 @@ const CalendarIntegration = () => {
       window.gapi.client
         .init({
           clientId:
-            '817373369724-gtf3hb6vki6e9smsd4kumgmd98sqji2c.apps.googleusercontent.com',
+            '',
           discoveryDocs: [
-            'https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest',
+            '',
           ],
-          scope: 'https://www.googleapis.com/auth/calendar.events',
+          scope: '',
         })
         .then(() => {
           const auth2 = window.gapi.auth2.getAuthInstance();
